@@ -1,0 +1,23 @@
+body {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: lightcyan;
+}
+textarea {
+    width: 400px;
+    height: 100px;
+    margin: 30px;
+}
+#output {
+    text-align: left;
+}
+.mat {
+    color: white;
+    background-color: red;
+}
+.mat::before {
+    content: "Match";
+    color: black;
+    background-color: aqua;
+}
